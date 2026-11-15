@@ -107,6 +107,7 @@ class MainActivity : Activity() {
 
         root = FrameLayout(this)
         root.setBackgroundColor(Theme.bg)
+        setContentView(root)
 
         backdrop = GridBackdrop(this)
         root.addView(backdrop, fullLp())
