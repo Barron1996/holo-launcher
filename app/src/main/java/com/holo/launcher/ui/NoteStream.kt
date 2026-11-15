@@ -168,7 +168,7 @@ class NoteStream @JvmOverloads constructor(
             val pr = dp(26f)
             pillRect.set(right - pr, rowRect.top + dp(2f), right, rowRect.top + dp(2f) + dp(11f))
             pBar.color = Theme.alpha(Theme.accent, 0.14f * alpha)
-            panel.drawPanel(canvas, pillRect, dp(3f), pBar.color, Theme.alpha(Theme.accent, 0.4f * alpha), 0f)
+            panel.drawPanel(canvas, pillRect, dp(3f), pBar.color, Theme.alpha(Theme.accent, 0.4f * alpha))
             pMicro.color = Theme.alpha(Theme.accent, alpha)
             pMicro.textAlign = Paint.Align.CENTER
             canvas.drawText("回", pillRect.centerX(), pillRect.centerY() + dp(3.2f), pMicro)

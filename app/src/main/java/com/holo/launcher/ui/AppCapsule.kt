@@ -162,7 +162,7 @@ class AppCapsule @JvmOverloads constructor(
                 iconCy + iconSize / 2f + dp(3f)
             )
             pBar.color = Theme.alpha(Theme.accent, 0.10f)
-            panel.drawPanel(canvas, hb, dp(6f), pBar.color, 0, 0f, 0f, 1f)
+            panel.drawPanel(canvas, hb, dp(6f), pBar.color, Theme.panelStroke())
         }
 
         val d: Drawable = AppRepository.iconOf(context, app)
