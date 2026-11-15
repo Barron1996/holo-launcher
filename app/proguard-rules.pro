@@ -1,0 +1,2 @@
+-keep class com.holo.launcher.widget.HoloWidgetProvider { *; }
+-keep class com.holo.launcher.notification.HoloNotificationListener { *; }

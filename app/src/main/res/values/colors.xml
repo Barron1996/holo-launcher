@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_bg">#FF06080A</color>
+    <color name="holo_bg_panel">#FF0C1014</color>
+    <color name="holo_bg_panel_hi">#FF12171D</color>
+    <color name="holo_stroke">#FF1F2A33</color>
+    <color name="holo_stroke_hi">#FF2E3D49</color>
+    <color name="holo_text">#FFD8E4EC</color>
+    <color name="holo_text_dim">#FF5C6B78</color>
+    <color name="holo_text_faint">#FF39454F</color>
+    <color name="holo_accent">#FF4FD1C5</color>
+    <color name="holo_accent_dim">#FF2A6E68</color>
+    <color name="holo_warn">#FFE8A33D</color>
+    <color name="holo_danger">#FFD9534F</color>
+    <color name="holo_bg_top">#FF06080A</color>
+    <color name="holo_bg_bottom">#FF06080A</color>
+    <color name="holo_bg_deep">#FF06080A</color>
+    <color name="holo_cyan">#FF4FD1C5</color>
+    <color name="holo_cyan_bright">#FF7FE8DE</color>
+    <color name="holo_cyan_dim">#FF2A6E68</color>
+    <color name="holo_blue">#FF4A90B8</color>
+    <color name="holo_panel">#FF0C1014</color>
+    <color name="holo_panel_strong">#FF12171D</color>
+    <color name="holo_panel_border">#FF1F2A33</color>
+    <color name="holo_ok">#FF4FD1C5</color>
+</resources>

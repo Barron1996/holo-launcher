@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Holo</string>
+    <string name="search_hint">输入以搜索</string>
+    <string name="no_notifications">暂无通知</string>
+    <string name="reply_hint">回复…</string>
+    <string name="widget_label">Holo 小部件</string>
+    <string name="capsule_info">INFO</string>
+    <string name="capsule_quick">QUICK</string>
+    <string name="capsule_note">STREAM</string>
+    <string name="capsule_apps">APPS</string>
+    <string name="ai_hint">按住说话 / 点击打字</string>
+    <string name="ai_not_configured">未配置 AI 服务 · 本地指令仍然可用</string>
+    <string name="btn_goto_config">去配置</string>
+    <string name="btn_later">以后再说</string>
+    <string name="settings_title">SYSTEM</string>
+    <string name="monster_on">MONSTER // 已提频</string>
+    <string name="monster_visual_only">MONSTER // 仅视觉，未提频</string>
+</resources>
