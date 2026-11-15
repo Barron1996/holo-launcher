@@ -41,7 +41,7 @@ class InfoCapsule @JvmOverloads constructor(
 
     private val cut = dp(10f)
 
-    private val panel = ChamferPanel()
+    private val panel = ChamferPanel
 
     // ---------- 画笔 ----------
     private val pTime = Paint(Paint.ANTI_ALIAS_FLAG).apply {
@@ -235,7 +235,7 @@ class InfoCapsule @JvmOverloads constructor(
         // 秒（小字，弱化）
         pTime.textSize = dp(12f)
         pTime.color = Theme.textFaint
-        canvas.drawText(sec, padL + timeW + dp(4f), h * 0.52f, pTime)
+        canvas.drawText(String.format("%02d", sec), padL + timeW + dp(4f), h * 0.52f, pTime)
 
         // 日期
         pDate.textSize = dp(9.5f)

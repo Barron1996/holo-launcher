@@ -32,7 +32,7 @@ class QuickCapsule @JvmOverloads constructor(
     private fun dp(v: Float) = v * density
 
     private val cut = dp(10f)
-    private val panel = ChamferPanel()
+    private val panel = ChamferPanel
 
     private val pText = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         typeface = Typeface.create("sans-serif", Typeface.NORMAL)

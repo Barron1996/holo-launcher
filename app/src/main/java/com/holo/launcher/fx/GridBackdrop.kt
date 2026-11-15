@@ -62,7 +62,7 @@ class GridBackdrop @JvmOverloads constructor(
         val h = height.toFloat()
         if (w <= 0f || h <= 0f) return
 
-        val accent = Theme.accent()
+        val accent = Theme.accent
 
         // 小格：极淡
         minorPaint.color = Theme.alpha(accent, 0.030f)

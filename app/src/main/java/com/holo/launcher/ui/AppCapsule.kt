@@ -31,7 +31,7 @@ class AppCapsule @JvmOverloads constructor(
     private val density = resources.displayMetrics.density
     private fun dp(v: Float) = v * density
 
-    private val panel = ChamferPanel()
+    private val panel = ChamferPanel
     private val body = RectF()
     private val iconRect = Rect()
 

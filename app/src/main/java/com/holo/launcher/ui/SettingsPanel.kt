@@ -17,7 +17,7 @@ import com.holo.launcher.sys.Theme
  */
 class SettingsPanel(context: Context) : View(context) {
 
-    private val panel = ChamferPanel()
+    private val panel = ChamferPanel
 
     private val pLabel = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         typeface = Typeface.create(Typeface.MONOSPACE, Typeface.NORMAL)

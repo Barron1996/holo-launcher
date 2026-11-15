@@ -22,7 +22,7 @@ import com.holo.launcher.sys.Theme
  */
 class AiConsole(context: Context) : FrameLayout(context) {
 
-    private val panelPaint = ChamferPanel()
+    private val panelPaint = ChamferPanel
     private val bgView = ConsoleBg(context)
 
     private val listArea: LinearLayout
